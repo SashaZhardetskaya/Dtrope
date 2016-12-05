@@ -1,0 +1,145 @@
+.logo-text {
+	font-size: 40px;
+}
+
+nav {
+	background: #fff;
+	color: #000;
+	box-shadow: none;
+	text-align: center;
+}
+
+nav ul li {
+	float: none;
+	display: inline-block;
+	padding: 0 25px;
+	font-style: italic;
+	font-size: 12px;
+	color: #606060;
+	line-height: 45px;
+}
+
+.active-nav {
+	background: #b71c1c;
+	border-radius: 5px;
+	color: #fff;
+	font-weight: bold;
+}
+
+.front-ad {
+	height: 300px;
+	background: url(../images/pic01.jpg);
+	background-position: 58% 68%;
+  background-size: cover;
+}
+
+.front-ad .valign {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.pentagramma1, .pentagramma2,  .pentagramma3{
+	width: 90px;
+	height: 70px;
+	border-radius: 5px 5px 0 0;
+	position: relative;
+	margin: 40px auto 0 auto;
+	padding: 13px 17px;
+
+}
+
+.pentagramma1::after {
+	content: "";
+	display: block;
+	width: 0;
+	height: 0;
+	position: absolute;
+	left: 0;
+	bottom: -30px;
+	border-top: 30px solid #bf360c;
+	border-left: 45px solid transparent;
+	border-right: 45px solid transparent;
+}
+.pentagramma2::after {
+	content: "";
+	display: block;
+	width: 0;
+	height: 0;
+	position: absolute;
+	left: 0;
+	bottom: -30px;
+	border-top: 30px solid black;
+	border-left: 45px solid transparent;
+	border-right: 45px solid transparent;
+}
+.pentagramma3::after {
+	content: "";
+	display: block;
+	width: 0;
+	height: 0;
+	position: absolute;
+	left: 0;
+	bottom: -30px;
+	border-top: 30px solid #616161;
+	border-left: 45px solid transparent;
+	border-right: 45px solid transparent;
+}
+
+
+.i-settings {
+	color: #fff;
+	font-size: 36px;
+	font-size: 56px;
+}
+
+.front-block3 {
+	overflow: hidden;
+	background: pink;
+	padding: 0 10px;
+	position: relative;
+}
+
+.front-block3 h4 {
+	margin-top: 60px;
+}
+
+.mybutton {
+	width: 200px;
+	margin: 0 20px;
+}
+
+.mb40 {
+	margin-bottom: 40px;
+}
+
+.white-block {
+	border-bottom: 1px solid #D5D5D5;
+}
+
+.front-card {
+	width: 90%;
+  margin: 20px auto;
+	background: #fff;
+	border-bottom: 1px solid #D5D5D5;
+	padding-bottom: 15px;
+}
+
+.front-card h3 {
+	font-size: 24px;
+	text-align: left;
+	padding: 0 15px;
+}
+
+.front-card p {
+	font-size: 13px;
+	padding: 0 15px;
+
+}
+
+.front-card img {
+	width: 100%;
+}
+
+.front-card .btn {
+	margin-left: 15px;
+}
