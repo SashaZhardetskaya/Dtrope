@@ -31,7 +31,7 @@ header h2 {
 }
 
 .jumbotron-title {
-	background: black;
+	background: #2b2728;
 	display: flex;
 	flex-direction: column;
 }
@@ -78,7 +78,7 @@ header h2 {
     position: relative;
     margin: 40px auto 0 auto;
     padding: 13px 17px;
-    background: black;
+    background: #2b2728;
 }
 
 .main-item-2:after{
@@ -89,7 +89,7 @@ header h2 {
     position: absolute;
     left: 0;
     bottom: -30px;
-    border-top: 30px solid black;
+    border-top: 30px solid #2b2728;
     border-left: 45px solid transparent;
     border-right: 45px solid transparent;
 }
@@ -150,7 +150,7 @@ header h2 {
 
 .main-button-2 {
 	width: 100%;
-	background: black;
+	background: #2b2728;
 	color: white;
 	border: none;
 	border-radius: 5px;
@@ -181,14 +181,83 @@ header h2 {
     padding-bottom: 15px;
 }
 
+.img-container h3, .img-container p{
+	padding: 0 15px 0 15px;
+}
+
 .img-container img {
 	width: 100%;
 }
 
 .img-container button {
-	background: black;
+	background: #2b2728;
 	color: white;
 	border: none;
 	border-radius: 3px;
 	padding: 5px 15px 5px 15px;
+	margin: 0 5px 10px 15px;
+}
+
+.blog {
+	position: relative;
+}
+.blog span {
+	position: relative;
+	top: -30px;
+	left: 45%;
+	background: #f7f7f7;
+	padding: 0 10px 0 10px;
+}
+.blog hr {
+	position: relative;
+	padding: 0 10px 0 10px;
+}
+
+.img-container .btn-reading {
+	background: #D12247;
+}
+
+.img-container h3 span {
+	font-size: 14px;
+	font-style: italic;
+}
+
+.footer-background {
+	background: #2b2728;
+	height: 300px;
+}
+
+.footer-title {
+	color: white;
+}
+
+.date-pic {
+	width: 45px;
+    height: 45px;
+    border-radius: 5px 0 0 5px;
+    position: relative;
+    background: #D12247;
+    float: left;
+    margin: 0 25px 0 0;
+}
+
+.date-pic:after {
+	content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 0;
+    left: 45px;
+    border-left: 13px solid #D12247;
+    border-top: 23px solid transparent;
+    border-bottom: 23px solid transparent;
+}
+
+.footer-event {
+	color: white;
+}
+
+.date-pic span{
+	margin: auto;
 }
