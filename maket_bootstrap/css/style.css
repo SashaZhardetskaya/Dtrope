@@ -16,7 +16,179 @@ header h2 {
 }
 
 .header-button:hover {
-	background: red;
+	background: #D12247;
+	color: white;
 }
 
-Jambotrone
+.btn-primary.focus, .btn-primary:focus, .btn-primary:hover, .btn-primary {
+	background: #B6C3C4;
+	border: none;
+}
+
+.jumbotron {
+	background: url(../images/pic01.jpg) 58% 68%;
+
+}
+
+.jumbotron-title {
+	background: black;
+	display: flex;
+	flex-direction: column;
+}
+
+.jumbotron h1 {
+	color: white;
+}
+
+.jumbotron p {
+	color: red;
+}
+
+.front-block-2 {
+	box-shadow: 10px 0 20px -15px #000, -10px 0 20px -15px #000;
+}
+
+.main-item-1{
+	width: 90px;
+    height: 70px;
+    border-radius: 5px 5px 0 0;
+    position: relative;
+    margin: 40px auto 0 auto;
+    padding: 13px 17px;
+    background: #D12247;
+}
+
+.main-item-1:after{
+	content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 0;
+    bottom: -30px;
+    border-top: 30px solid #D12247;
+    border-left: 45px solid transparent;
+    border-right: 45px solid transparent;
+}
+
+.main-item-2{
+	width: 90px;
+    height: 70px;
+    border-radius: 5px 5px 0 0;
+    position: relative;
+    margin: 40px auto 0 auto;
+    padding: 13px 17px;
+    background: black;
+}
+
+.main-item-2:after{
+	content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 0;
+    bottom: -30px;
+    border-top: 30px solid black;
+    border-left: 45px solid transparent;
+    border-right: 45px solid transparent;
+}
+
+.main-item-3{
+	width: 90px;
+    height: 70px;
+    border-radius: 5px 5px 0 0;
+    position: relative;
+    margin: 40px auto 0 auto;
+    padding: 13px 17px;
+    background: #827a7c;
+}
+
+.main-item-3:after{
+	content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 0;
+    bottom: -30px;
+    border-top: 30px solid #827a7c;
+    border-left: 45px solid transparent;
+    border-right: 45px solid transparent;
+}
+
+.front-block-1 i, .front-block-2 i, .front-block-3 i {
+	color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+} 
+
+.front-block-1 h4, .front-block-2 h4, .front-block-3 h4{
+	padding: 30px 0 0 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+} 
+.front-block-1 span, .front-block-2 span, .front-block-3 span{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding: 0 10px 0 10px;
+	text-align: center;
+}
+
+.main-button-1 {
+	width: 100%;
+	background: #d12247;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 0 10px 0;
+	margin: 30px 0 0 0;
+}
+
+.main-button-2 {
+	width: 100%;
+	background: black;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 0 10px 0;
+	margin: 30px 0 40px 0;
+}
+
+.background-grey {
+	background: #f7f7f7;
+}
+
+.portfolio {
+	position: relative;
+}
+.portfolio span {
+	position: absolute;
+	top: -10px;
+	left: 45%;
+	background: #f7f7f7;
+	padding: 0 10px 0 10px;
+}
+
+.img-container {
+	width: 90%;
+    margin: 20px auto;
+    background: #fff;
+    border-bottom: 1px solid #D5D5D5;
+    padding-bottom: 15px;
+}
+
+.img-container img {
+	width: 100%;
+}
+
+.img-container button {
+	background: black;
+	color: white;
+	border: none;
+	border-radius: 3px;
+	padding: 5px 15px 5px 15px;
+}
