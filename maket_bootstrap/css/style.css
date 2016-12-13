@@ -213,6 +213,10 @@ header h2 {
 	padding: 0 10px 0 10px;
 }
 
+
+/*footer*/
+
+
 .img-container .btn-reading {
 	background: #D12247;
 }
@@ -224,7 +228,6 @@ header h2 {
 
 .footer-background {
 	background: #2b2728;
-	height: 300px;
 }
 
 .footer-title {
@@ -247,7 +250,7 @@ header h2 {
     width: 0;
     height: 0;
     position: absolute;
-    left: 0;
+    top: 0;
     left: 45px;
     border-left: 13px solid #D12247;
     border-top: 23px solid transparent;
@@ -256,8 +259,91 @@ header h2 {
 
 .footer-event {
 	color: white;
+	margin: 10px 0 10px 0;
 }
 
-.date-pic span{
+.date-pic > span{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.footer-event .text{
+	color: #a1a1a1;
+}
+
+/*footer-img*/
+
+.footer-img-container {
+    padding-bottom: 15px;
+    color: white;
+}
+
+
+.footer-img-container img {
+	width: 100%;
+}
+
+.footer-img-container p {
+	color: #a1a1a1;
+}
+
+.footer-img-container .underline {
+	text-decoration: underline;
+}
+
+.footer-img-container button {
+	background: #d12247;
+	color: white;
+	border: none;
+	border-radius: 3px;
+	padding: 5px 15px 5px 15px;
+}
+
+.footer-col4-size{
+	width: 90%;
 	margin: auto;
+}
+
+.footer-linked-text {
+	line-height: 220%;
+	border-bottom: 1px solid #333333;
+}
+
+.footer-linked-text span {
+	color: #a1a1a1;
+	font-weight: 100;
+	text-decoration: underline;
+	cursor: pointer;
+	font-size: 12px;
+}
+
+.social-icons {	
+	line-height: 220%;
+}
+
+.horisontal-comment {
+	border-bottom: 1px solid #333333;
+}
+
+.horisontal-comment-main {
+	color: white;
+}
+
+.horisontal-comment-aside {
+	color: #a1a1a1;
+}
+
+.horisontal-comment {
+	margin: 19px 0 20px 0;
+}
+
+.footer-end {
+	height: 20px;
+	width: 60%;
+	margin: 40px auto;
+	padding: 7px 0 25px 17px;
+	background: #2f2b2c;
+	color: #a1a1a1;
+	border: none;
 }
